@@ -52,7 +52,7 @@ function showData(serverResponse) {
     cardImage.src = serverResponse.data[2].album.cover
     cardImage.classList = "card-image";
     const albumTitle = document.createElement("p");
-    albumTitle.innerText = serverResponse.data[1].title;
+    albumTitle.innerText = serverResponse.data[2].title;
     albumTitle.classList = "album-title mt-2 mb-2";
     const titleButton = document.createElement("button");
     titleButton.innerText = "Track List"
