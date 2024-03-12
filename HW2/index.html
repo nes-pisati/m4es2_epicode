@@ -38,8 +38,7 @@
                     </a>
                   </li>
                   <li>
-                    <a class="nav-item nav-link" href="#"><i class="fas fa-book-open fa-lg"></i>&nbsp; Your
-                      Library</a>
+                    <a class="nav-item nav-link" href="#" id = "myPlaylist"><i class="fas fa-book-open fa-lg"></i>&nbsp; My Playlist</a>
                   </li>
                   <li>
                     <div class="input-group mt-3">
@@ -83,10 +82,17 @@
           <div class="col-10">
             <div id="searchResults" >
               <h2>Search Results</h2>
-              <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 imgLinks py-3"></div>
+
             </div>
           </div>
         </div>
+
+        <dialog>
+          <div id="dialogBody"></div>
+          <button autofocus>Close</button>
+          <button id="clearPlaylist">Clear Playlist</button>
+        </dialog>
+        <button>Show the dialog</button>
         <!--<div class="row">
           <div class="col-10">
             <div id="eminem">
